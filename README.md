@@ -1,2 +1,1 @@
-# drumkit
-Practicing JavaScript
+Website for practicing JavaScript
