@@ -1,0 +1,100 @@
+html, body {
+  height: 100%;
+}
+
+a {
+  color: #DBEDF3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #51dacf;
+}
+
+body {
+  background-color: #f6d198;
+  color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Barlow', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #ff5959;
+  font-size: 6rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+footer {
+  background-color: #7ebdb4;
+  flex-shrink: 0;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.action-call {
+  text-shadow: 1px 1px #f4a548;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+/******** Keyboard Drum Images ********/
+.drum {
+  background-color: #faeee7;
+  border: 10px solid #f4a548;
+  border-radius: 15px;
+  color: #f4a548;
+  display: inline-block;
+  font-size: 5rem;
+  font-weight: 900;
+  height: 140px;
+  margin: 10px;
+  outline: none;
+  text-align: center;
+  text-shadow: 3px 0 black;
+  width: 140px;
+}
+
+.set {
+  margin: 10% auto 2%;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.a {
+  background-image: url("images/tom1.png");
+}
+
+.s {
+  background-image: url("images/tom2.png");
+}
+
+.d {
+  background-image: url("images/tom3.png");
+}
+
+.f {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/snare.png")
+}
+
+.k {
+  background-image: url("images/crash.png")
+}
+
+.l {
+  background-image: url("images/kick.png");
+}
